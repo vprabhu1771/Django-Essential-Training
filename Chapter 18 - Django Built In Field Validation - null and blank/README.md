@@ -1,3 +1,20 @@
+# Chapter 18 - Django Built In Field Validation - null and blank
+ 
+![Image](1.PNG)
+
+![Image](2.PNG)
+
+![Image](3.PNG)
+
+![Image](4.PNG)
+
+![Image](5.PNG)
+
+![Image](6.PNG)
+
+7. open `models.py`
+
+```
 from django.db import models
 
 # Create your models here.
@@ -22,3 +39,14 @@ class Author(models.Model):
 
     class Meta:
         db_table = "author"
+```
+
+8. open `admin.py`
+
+```
+from django.contrib import admin
+from .models import Author
+
+# Register your models here.
+admin.site.register(Author)
+```
