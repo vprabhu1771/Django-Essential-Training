@@ -12,5 +12,4 @@ INSTALLED_APPS = [
 
     # api v1 for angular or react
     'api_v1'
-
 ]
