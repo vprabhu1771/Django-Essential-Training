@@ -1,0 +1,1 @@
+You can customize the way topics are displayed in the list by adding additional fields to the list_display attribute or using custom methods. For instance, you can display a count of related objects (e.g., the number of articles associated with each topic):

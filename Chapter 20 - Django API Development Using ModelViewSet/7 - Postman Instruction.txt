@@ -1,0 +1,107 @@
+GET http://127.0.0.1:8000/api_v1/categories/
+
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Horror"
+        },
+        {
+            "id": 2,
+            "name": "Mystery"
+        },
+        {
+            "id": 4,
+            "name": "Science Fiction"
+        },
+        {
+            "id": 5,
+            "name": "Action"
+        }
+    ]
+}
+
+
+POST http://127.0.0.1:8000/api_v1/categories/
+
+Headers 
+
+Content-Type: application/json
+
+
+Body -> raw -> JSON
+
+{
+    "name": "Adventure"
+}
+
+
+
+GET http://127.0.0.1:8000/api_v1/categories/1
+
+Headers 
+
+Content-Type: application/json
+
+
+{
+    "id": 2,
+    "name": "Mystery"
+}
+
+{
+    "message": "Category created successfully"
+}
+
+
+PUT http://127.0.0.1:8000/api_v1/categories/1
+
+Headers 
+
+Content-Type: application/json
+
+
+{
+    "id": 2,
+    "name": "abcd"
+}
+
+{
+    "message": "Category updated successfully"
+}
+
+
+
+PATCH http://127.0.0.1:8000/api_v1/categories/1
+
+Headers 
+
+Content-Type: application/json
+
+
+{
+    "id": 2,
+    "name": "abcd"
+}
+
+{
+    "message": "Category updated successfully"
+}
+
+
+DELETE http://127.0.0.1:8000/api_v1/categories/2
+
+Headers 
+
+Content-Type: application/json
+
+
+{
+    "id": 2,
+    "name": "abcd"
+}
+
+
+{
+    "message": "Category deleted successfully"
+}

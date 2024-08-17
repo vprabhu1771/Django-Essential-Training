@@ -1,0 +1,1 @@
+In Django's admin interface, the list_display_links attribute is used to specify which field(s) in the list view of a model's admin page should be clickable and lead to the detail/change view of that particular item when clicked.

@@ -1,0 +1,1 @@
+get_queryset(self, request): This method allows you to customize the queryset used to fetch categories in the admin interface. In this case, it filters the queryset to only include categories where the is_published field is set to True. This can be useful if you want to restrict what data is displayed in the admin interface based on certain criteria.

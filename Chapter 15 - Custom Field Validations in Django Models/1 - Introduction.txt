@@ -1,0 +1,15 @@
+This Custom Field Validations in Django Models revolves around how to add custom validation to a particular field. 
+
+For example to add validation of an email to a CharField by specifying a particular format. 
+
+There can be multiple ways on how to achieve custom validation. In this article, 
+we are going to show it from the model itself so that you need not manipulate it elsewhere. 
+These Validation are run when you are trying to create an instance of a model. 
+
+Technically, this validation is implemented after you run ModelName.objects.create(data = data).
+
+Syntax
+
+field_name = models.Field(validators = [function 1, function 2])
+
+https://www.geeksforgeeks.org/custom-field-validations-in-django-models/?ref=lbp

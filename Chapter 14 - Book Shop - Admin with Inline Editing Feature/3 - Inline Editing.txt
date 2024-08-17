@@ -1,0 +1,1 @@
+ You can enable inline editing of topic fields directly from the list view. For example, you can allow admins to edit the name of a topic without going to the edit page:

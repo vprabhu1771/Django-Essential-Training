@@ -1,0 +1,65 @@
+1) Open Activities
+
+START 
+
+
+2) Open Terminal
+
+terminal
+
+
+3) Go To Desktop
+
+cd Desktop
+
+
+4) Check Python is Installed or Not
+
+which python
+
+or
+
+which python3
+
+
+
+5) Create Folder
+
+mkdir folder_name
+
+
+
+6) Go To Folder
+
+cd folder_name
+
+
+7) Install Python Virtual Environment
+
+sudo apt install python3.10-venv
+
+
+
+8) Create Python Virtual Environment
+
+python -m venv venv
+
+
+
+9) Activate Virtual Environment
+
+cd venv/bin
+
+source activate
+
+cd..
+
+cd..
+
+OR
+
+cd venv/bin && source activate && cd.. && cd..
+
+OR
+
+source venv/bin/activate

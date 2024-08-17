@@ -1,0 +1,59 @@
+1) Open Run Window
+
+Start + R
+
+
+2) Open Command Prompt
+
+cmd
+
+
+3) Go to Desktop
+
+cd Desktop
+
+
+4) Create Project Folder and Go to Project Folder
+
+mkdir project_name
+
+cd project_name
+
+
+5) Create Python Virtual Environment
+
+python -m venv venv
+
+
+6) Activate Virtual Environment
+
+cd venv/Scripts 
+
+activate
+
+cd..
+
+cd..
+
+OR
+
+cd venv/Scripts && activate && cd.. && cd..
+
+
+7) Install Django
+
+pip install django
+
+
+8) Create Django Config Folder
+
+django-admin startproject config .
+
+
+9) Create Backend App
+
+python manage.py startapp backend
+
+10) Open VSCode
+
+code .
